@@ -1,0 +1,26 @@
+.genres__result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genres__button {
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+    .genres__button {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .genres__button {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .genres__button {
+        width: 50%;
+    }
+}

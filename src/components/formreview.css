@@ -1,0 +1,42 @@
+.review {
+    padding-bottom: 5em;
+}
+
+.review__form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+#review__textarea, #review__user {
+    font-family: var(--main-font);
+    padding: 0.5em;
+}
+
+#review__textarea {
+    width: 100%;
+    height: 10em;
+}
+
+#review__user {
+    height: 2em;
+    padding-bottom: 1em;
+}
+
+.review__rating {
+    display: inline;
+    padding: 1em 0;
+}
+
+.review__rating > input[type=radio] {
+    margin: 0 0.5em;
+}
+
+.review__submit {
+    width: 20em;
+}
+
+.review__success {
+    margin: 1em 0;
+    font-size: 1.2em;
+}

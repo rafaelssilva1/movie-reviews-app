@@ -1,0 +1,12 @@
+.notreleased {
+    text-align: center;
+}
+
+.notreleased__title {
+    padding: 1em 0;
+}
+
+.notreleased_date {
+    background-color: var(--color-yellow);
+    padding: 0 0.2em;
+}

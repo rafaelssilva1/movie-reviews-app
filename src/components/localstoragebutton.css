@@ -1,0 +1,11 @@
+.localstorage__button {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    background-color: var(--color-white);
+    border: none;
+}
+
+.localstorage__button > .material-icons-outlined {
+    font-size: 2em;
+}

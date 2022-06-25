@@ -1,0 +1,22 @@
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+}
+
+.random__button {
+    
+}
+
+.random__video {
+    
+}
+
+@media screen and (max-width: 480px) {
+    .random__video {
+        width: 100%;
+    }
+}
